@@ -5,7 +5,19 @@ edition = "2024"
 
 [dependencies]
 leptos = { version = "0.8", features = ["csr"] }
-web-sys = { version = "0.3", features = ["HtmlElement", "Element", "DomTokenList", "CssStyleDeclaration"] }
+web-sys = { version = "0.3", features = [
+    "CssStyleDeclaration",
+    "Document",
+    "DomRect",
+    "DomTokenList",
+    "Element",
+    "HtmlElement",
+    "MouseEvent",
+    "Navigator",
+    "PointerEvent",
+    "Window",
+    "console",
+] }
 wasm-bindgen = "0.2"
 
 [dev-dependencies]

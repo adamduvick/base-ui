@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-23T03:09:37.875379+00:00",
+  "generated_at": "2026-02-23T03:34:48.112291+00:00",
   "summary": {
     "total": 83,
-    "done": 0,
+    "done": 23,
     "in_progress": 0,
-    "ready": 26
+    "ready": 12
   },
   "tiers": [
     {
@@ -35,162 +35,162 @@
           "name": "utils/detectBrowser",
           "path": "packages/utils/src/detectBrowser.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/empty",
           "path": "packages/utils/src/empty.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/error",
           "path": "packages/utils/src/error.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/fastObjectShallowCompare",
           "path": "packages/utils/src/fastObjectShallowCompare.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/formatErrorMessage",
           "path": "packages/utils/src/formatErrorMessage.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/generateId",
           "path": "packages/utils/src/generateId.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/isElementDisabled",
           "path": "packages/utils/src/isElementDisabled.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/isMouseWithinBounds",
           "path": "packages/utils/src/isMouseWithinBounds.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/mergeObjects",
           "path": "packages/utils/src/mergeObjects.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/owner",
           "path": "packages/utils/src/owner.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/reactVersion",
           "path": "packages/utils/src/reactVersion.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/safeReact",
           "path": "packages/utils/src/safeReact.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/testUtils",
           "path": "packages/utils/src/testUtils.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/useControlled",
           "path": "packages/utils/src/useControlled.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/useEnhancedClickHandler",
           "path": "packages/utils/src/useEnhancedClickHandler.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/useForcedRerendering",
           "path": "packages/utils/src/useForcedRerendering.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/useIsoLayoutEffect",
           "path": "packages/utils/src/useIsoLayoutEffect.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/useOnFirstRender",
           "path": "packages/utils/src/useOnFirstRender.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/useOnMount",
           "path": "packages/utils/src/useOnMount.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/usePreviousValue",
           "path": "packages/utils/src/usePreviousValue.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/useRefWithInit",
           "path": "packages/utils/src/useRefWithInit.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/visuallyHidden",
           "path": "packages/utils/src/visuallyHidden.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         },
         {
           "name": "utils/warn",
           "path": "packages/utils/src/warn.ts",
           "dependencies": [],
-          "status": "not_started",
-          "ready": true
+          "status": "done",
+          "ready": false
         }
       ]
     },
@@ -204,7 +204,7 @@
             "utils/useRefWithInit"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/getReactElementRef",
@@ -213,7 +213,7 @@
             "utils/reactVersion"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/inertValue",
@@ -222,7 +222,7 @@
             "utils/reactVersion"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/useAnimationFrame",
@@ -232,7 +232,7 @@
             "utils/useRefWithInit"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/useId",
@@ -241,7 +241,7 @@
             "utils/safeReact"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/useMergedRefs",
@@ -250,7 +250,7 @@
             "utils/useRefWithInit"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/useStableCallback",
@@ -259,7 +259,7 @@
             "utils/useRefWithInit"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/useTimeout",
@@ -269,7 +269,7 @@
             "utils/useRefWithInit"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         },
         {
           "name": "utils/useValueAsRef",
@@ -279,7 +279,7 @@
             "utils/useRefWithInit"
           ],
           "status": "not_started",
-          "ready": false
+          "ready": true
         }
       ]
     },
