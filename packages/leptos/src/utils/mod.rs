@@ -1,6 +1,7 @@
 //! Utility modules ported from `@base-ui/utils`.
 //! Each submodule corresponds to a unit in `analyze_deps.py`.
 
+pub mod animation_frame;
 pub mod detect_browser;
 pub mod empty;
 pub mod error;
@@ -9,8 +10,10 @@ pub mod generate_id;
 pub mod is_element_disabled;
 pub mod is_mouse_within_bounds;
 pub mod owner;
+pub mod timeout;
 pub mod use_controlled;
 pub mod use_enhanced_click_handler;
+pub mod use_id;
 pub mod use_on_mount;
 pub mod use_previous_value;
 pub mod visually_hidden;
