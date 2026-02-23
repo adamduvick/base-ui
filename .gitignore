@@ -43,3 +43,6 @@ next-env.d.ts
 
 # Testing
 test-results/
+
+# Rust/Cargo
+/target

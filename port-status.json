@@ -1,0 +1,1164 @@
+{
+  "generated_at": "2026-02-23T03:09:37.875379+00:00",
+  "summary": {
+    "total": 83,
+    "done": 0,
+    "in_progress": 0,
+    "ready": 26
+  },
+  "tiers": [
+    {
+      "tier": 0,
+      "units": [
+        {
+          "name": "react/csp-provider",
+          "path": "packages/react/src/csp-provider/CSPContext.tsx",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "react/direction-provider",
+          "path": "packages/react/src/direction-provider/DirectionContext.tsx",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "react/unstable-use-media-query",
+          "path": "packages/react/src/unstable-use-media-query/index.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/detectBrowser",
+          "path": "packages/utils/src/detectBrowser.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/empty",
+          "path": "packages/utils/src/empty.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/error",
+          "path": "packages/utils/src/error.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/fastObjectShallowCompare",
+          "path": "packages/utils/src/fastObjectShallowCompare.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/formatErrorMessage",
+          "path": "packages/utils/src/formatErrorMessage.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/generateId",
+          "path": "packages/utils/src/generateId.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/isElementDisabled",
+          "path": "packages/utils/src/isElementDisabled.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/isMouseWithinBounds",
+          "path": "packages/utils/src/isMouseWithinBounds.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/mergeObjects",
+          "path": "packages/utils/src/mergeObjects.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/owner",
+          "path": "packages/utils/src/owner.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/reactVersion",
+          "path": "packages/utils/src/reactVersion.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/safeReact",
+          "path": "packages/utils/src/safeReact.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/testUtils",
+          "path": "packages/utils/src/testUtils.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/useControlled",
+          "path": "packages/utils/src/useControlled.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/useEnhancedClickHandler",
+          "path": "packages/utils/src/useEnhancedClickHandler.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/useForcedRerendering",
+          "path": "packages/utils/src/useForcedRerendering.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/useIsoLayoutEffect",
+          "path": "packages/utils/src/useIsoLayoutEffect.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/useOnFirstRender",
+          "path": "packages/utils/src/useOnFirstRender.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/useOnMount",
+          "path": "packages/utils/src/useOnMount.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/usePreviousValue",
+          "path": "packages/utils/src/usePreviousValue.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/useRefWithInit",
+          "path": "packages/utils/src/useRefWithInit.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/visuallyHidden",
+          "path": "packages/utils/src/visuallyHidden.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        },
+        {
+          "name": "utils/warn",
+          "path": "packages/utils/src/warn.ts",
+          "dependencies": [],
+          "status": "not_started",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "units": [
+        {
+          "name": "utils/fastHooks",
+          "path": "packages/utils/src/fastHooks.ts",
+          "dependencies": [
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/getReactElementRef",
+          "path": "packages/utils/src/getReactElementRef.ts",
+          "dependencies": [
+            "utils/reactVersion"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/inertValue",
+          "path": "packages/utils/src/inertValue.ts",
+          "dependencies": [
+            "utils/reactVersion"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useAnimationFrame",
+          "path": "packages/utils/src/useAnimationFrame.ts",
+          "dependencies": [
+            "utils/useOnMount",
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useId",
+          "path": "packages/utils/src/useId.ts",
+          "dependencies": [
+            "utils/safeReact"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useMergedRefs",
+          "path": "packages/utils/src/useMergedRefs.ts",
+          "dependencies": [
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useStableCallback",
+          "path": "packages/utils/src/useStableCallback.ts",
+          "dependencies": [
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useTimeout",
+          "path": "packages/utils/src/useTimeout.ts",
+          "dependencies": [
+            "utils/useOnMount",
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useValueAsRef",
+          "path": "packages/utils/src/useValueAsRef.ts",
+          "dependencies": [
+            "utils/useIsoLayoutEffect",
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "units": [
+        {
+          "name": "utils/store",
+          "path": "packages/utils/src/store/ReactStore.ts",
+          "dependencies": [
+            "utils/empty",
+            "utils/fastHooks",
+            "utils/reactVersion",
+            "utils/useAnimationFrame",
+            "utils/useForcedRerendering",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useInterval",
+          "path": "packages/utils/src/useInterval.ts",
+          "dependencies": [
+            "utils/useOnMount",
+            "utils/useRefWithInit",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false
+        },
+        {
+          "name": "utils/useScrollLock",
+          "path": "packages/utils/src/useScrollLock.ts",
+          "dependencies": [
+            "utils/detectBrowser",
+            "utils/empty",
+            "utils/owner",
+            "utils/useAnimationFrame",
+            "utils/useIsoLayoutEffect",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "tier": "cycle",
+      "units": [
+        {
+          "name": "react/accordion",
+          "path": "packages/react/src/accordion/header/AccordionHeader.tsx",
+          "dependencies": [
+            "react/collapsible",
+            "react/composite",
+            "react/direction-provider",
+            "react/use-button",
+            "react/utils",
+            "utils/isElementDisabled",
+            "utils/useControlled",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useStableCallback",
+            "utils/warn"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/alert-dialog",
+          "path": "packages/react/src/alert-dialog/handle.ts",
+          "dependencies": [
+            "react/dialog",
+            "react/utils",
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/autocomplete",
+          "path": "packages/react/src/autocomplete/index.parts.ts",
+          "dependencies": [
+            "react/combobox",
+            "react/separator",
+            "react/utils",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/avatar",
+          "path": "packages/react/src/avatar/fallback/AvatarFallback.tsx",
+          "dependencies": [
+            "react/utils",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/button",
+          "path": "packages/react/src/button/Button.tsx",
+          "dependencies": [
+            "react/use-button",
+            "react/utils"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/checkbox",
+          "path": "packages/react/src/checkbox/index.parts.ts",
+          "dependencies": [
+            "react/checkbox-group",
+            "react/field",
+            "react/form",
+            "react/labelable-provider",
+            "react/merge-props",
+            "react/use-button",
+            "react/utils",
+            "utils/empty",
+            "utils/useControlled",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useRefWithInit",
+            "utils/useStableCallback",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/checkbox-group",
+          "path": "packages/react/src/checkbox-group/CheckboxGroup.tsx",
+          "dependencies": [
+            "react/checkbox",
+            "react/field",
+            "react/form",
+            "react/labelable-provider",
+            "react/utils",
+            "utils/useControlled",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/collapsible",
+          "path": "packages/react/src/collapsible/index.parts.ts",
+          "dependencies": [
+            "react/accordion",
+            "react/use-button",
+            "react/utils",
+            "utils/useAnimationFrame",
+            "utils/useControlled",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useOnMount",
+            "utils/useStableCallback",
+            "utils/warn"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/combobox",
+          "path": "packages/react/src/combobox/arrow/ComboboxArrow.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/direction-provider",
+            "react/field",
+            "react/floating-ui-react",
+            "react/form",
+            "react/labelable-provider",
+            "react/separator",
+            "react/use-button",
+            "react/utils",
+            "utils/detectBrowser",
+            "utils/inertValue",
+            "utils/owner",
+            "utils/store",
+            "utils/useControlled",
+            "utils/useEnhancedClickHandler",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useOnFirstRender",
+            "utils/useRefWithInit",
+            "utils/useScrollLock",
+            "utils/useStableCallback",
+            "utils/useTimeout",
+            "utils/useValueAsRef",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/composite",
+          "path": "packages/react/src/composite/composite.ts",
+          "dependencies": [
+            "react/direction-provider",
+            "react/floating-ui-react",
+            "react/utils",
+            "utils/isElementDisabled",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useRefWithInit",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/context-menu",
+          "path": "packages/react/src/context-menu/index.parts.ts",
+          "dependencies": [
+            "react/floating-ui-react",
+            "react/menu",
+            "react/separator",
+            "react/types",
+            "react/utils",
+            "utils/owner",
+            "utils/useId",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/dialog",
+          "path": "packages/react/src/dialog/backdrop/DialogBackdrop.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/floating-ui-react",
+            "react/use-button",
+            "react/utils",
+            "utils/inertValue",
+            "utils/store",
+            "utils/useEnhancedClickHandler",
+            "utils/useOnFirstRender",
+            "utils/useRefWithInit",
+            "utils/useScrollLock",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/drawer",
+          "path": "packages/react/src/drawer/backdrop/DrawerBackdrop.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/dialog",
+            "react/floating-ui-react",
+            "react/merge-props",
+            "react/utils",
+            "utils/detectBrowser",
+            "utils/owner",
+            "utils/useControlled",
+            "utils/useEnhancedClickHandler",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/field",
+          "path": "packages/react/src/field/control/FieldControl.tsx",
+          "dependencies": [
+            "react/checkbox-group",
+            "react/fieldset",
+            "react/floating-ui-react",
+            "react/form",
+            "react/labelable-provider",
+            "react/merge-props",
+            "react/utils",
+            "utils/empty",
+            "utils/error",
+            "utils/owner",
+            "utils/safeReact",
+            "utils/useControlled",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/fieldset",
+          "path": "packages/react/src/fieldset/index.parts.ts",
+          "dependencies": [
+            "react/utils",
+            "utils/useIsoLayoutEffect"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/floating-ui-react",
+          "path": "packages/react/src/floating-ui-react/components/FloatingDelayGroup.tsx",
+          "dependencies": [
+            "react/types",
+            "react/utils",
+            "utils/detectBrowser",
+            "utils/owner",
+            "utils/store",
+            "utils/useAnimationFrame",
+            "utils/useEnhancedClickHandler",
+            "utils/useId",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useOnMount",
+            "utils/useRefWithInit",
+            "utils/useStableCallback",
+            "utils/useTimeout",
+            "utils/useValueAsRef",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/form",
+          "path": "packages/react/src/form/Form.tsx",
+          "dependencies": [
+            "react/field",
+            "react/utils",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/input",
+          "path": "packages/react/src/input/Input.tsx",
+          "dependencies": [
+            "react/field",
+            "react/utils"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/labelable-provider",
+          "path": "packages/react/src/labelable-provider/LabelableContext.ts",
+          "dependencies": [
+            "react/merge-props",
+            "react/utils",
+            "utils/useIsoLayoutEffect",
+            "utils/useRefWithInit",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/menu",
+          "path": "packages/react/src/menu/arrow/MenuArrow.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/context-menu",
+            "react/direction-provider",
+            "react/floating-ui-react",
+            "react/menubar",
+            "react/merge-props",
+            "react/separator",
+            "react/toolbar",
+            "react/use-button",
+            "react/utils",
+            "utils/detectBrowser",
+            "utils/empty",
+            "utils/fastHooks",
+            "utils/inertValue",
+            "utils/owner",
+            "utils/store",
+            "utils/useControlled",
+            "utils/useEnhancedClickHandler",
+            "utils/useId",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useOnFirstRender",
+            "utils/useRefWithInit",
+            "utils/useScrollLock",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/menubar",
+          "path": "packages/react/src/menubar/Menubar.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/floating-ui-react",
+            "react/menu",
+            "react/utils",
+            "utils/useScrollLock"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/merge-props",
+          "path": "packages/react/src/merge-props/index.ts",
+          "dependencies": [
+            "react/utils",
+            "utils/mergeObjects"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/meter",
+          "path": "packages/react/src/meter/index.parts.ts",
+          "dependencies": [
+            "react/utils",
+            "utils/useIsoLayoutEffect"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/navigation-menu",
+          "path": "packages/react/src/navigation-menu/arrow/NavigationMenuArrow.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/direction-provider",
+            "react/floating-ui-react",
+            "react/use-button",
+            "react/utils",
+            "utils/inertValue",
+            "utils/owner",
+            "utils/useAnimationFrame",
+            "utils/useControlled",
+            "utils/useId",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/number-field",
+          "path": "packages/react/src/number-field/decrement/NumberFieldDecrement.tsx",
+          "dependencies": [
+            "react/field",
+            "react/floating-ui-react",
+            "react/form",
+            "react/labelable-provider",
+            "react/use-button",
+            "react/utils",
+            "utils/detectBrowser",
+            "utils/owner",
+            "utils/useControlled",
+            "utils/useForcedRerendering",
+            "utils/useInterval",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useStableCallback",
+            "utils/useTimeout",
+            "utils/useValueAsRef",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/popover",
+          "path": "packages/react/src/popover/arrow/PopoverArrow.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/floating-ui-react",
+            "react/toolbar",
+            "react/use-button",
+            "react/utils",
+            "utils/inertValue",
+            "utils/store",
+            "utils/useEnhancedClickHandler",
+            "utils/useIsoLayoutEffect",
+            "utils/useOnFirstRender",
+            "utils/useOnMount",
+            "utils/useRefWithInit",
+            "utils/useScrollLock",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/preview-card",
+          "path": "packages/react/src/preview-card/arrow/PreviewCardArrow.tsx",
+          "dependencies": [
+            "react/floating-ui-react",
+            "react/utils",
+            "utils/store",
+            "utils/useIsoLayoutEffect",
+            "utils/useOnFirstRender",
+            "utils/useRefWithInit",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/progress",
+          "path": "packages/react/src/progress/index.parts.ts",
+          "dependencies": [
+            "react/utils",
+            "utils/useIsoLayoutEffect",
+            "utils/useValueAsRef"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/radio",
+          "path": "packages/react/src/radio/index.parts.ts",
+          "dependencies": [
+            "react/composite",
+            "react/field",
+            "react/labelable-provider",
+            "react/radio-group",
+            "react/use-button",
+            "react/utils",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useStableCallback",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/radio-group",
+          "path": "packages/react/src/radio-group/RadioGroup.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/field",
+            "react/fieldset",
+            "react/floating-ui-react",
+            "react/form",
+            "react/labelable-provider",
+            "react/utils",
+            "utils/useControlled",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/scroll-area",
+          "path": "packages/react/src/scroll-area/constants.ts",
+          "dependencies": [
+            "react/csp-provider",
+            "react/direction-provider",
+            "react/floating-ui-react",
+            "react/utils",
+            "utils/detectBrowser",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback",
+            "utils/useTimeout"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/select",
+          "path": "packages/react/src/select/arrow/SelectArrow.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/csp-provider",
+            "react/field",
+            "react/floating-ui-react",
+            "react/form",
+            "react/labelable-provider",
+            "react/merge-props",
+            "react/separator",
+            "react/toolbar",
+            "react/use-button",
+            "react/utils",
+            "utils/detectBrowser",
+            "utils/inertValue",
+            "utils/isMouseWithinBounds",
+            "utils/owner",
+            "utils/store",
+            "utils/useAnimationFrame",
+            "utils/useControlled",
+            "utils/useEnhancedClickHandler",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useOnFirstRender",
+            "utils/useRefWithInit",
+            "utils/useScrollLock",
+            "utils/useStableCallback",
+            "utils/useTimeout",
+            "utils/useValueAsRef",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/separator",
+          "path": "packages/react/src/separator/Separator.tsx",
+          "dependencies": [
+            "react/utils"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/slider",
+          "path": "packages/react/src/slider/control/SliderControl.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/csp-provider",
+            "react/direction-provider",
+            "react/field",
+            "react/floating-ui-react",
+            "react/form",
+            "react/labelable-provider",
+            "react/merge-props",
+            "react/utils",
+            "utils/owner",
+            "utils/useAnimationFrame",
+            "utils/useControlled",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useOnMount",
+            "utils/useStableCallback",
+            "utils/useValueAsRef",
+            "utils/visuallyHidden",
+            "utils/warn"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/switch",
+          "path": "packages/react/src/switch/index.parts.ts",
+          "dependencies": [
+            "react/field",
+            "react/form",
+            "react/labelable-provider",
+            "react/merge-props",
+            "react/types",
+            "react/use-button",
+            "react/utils",
+            "utils/empty",
+            "utils/useControlled",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/useStableCallback",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/tabs",
+          "path": "packages/react/src/tabs/index.parts.ts",
+          "dependencies": [
+            "react/composite",
+            "react/csp-provider",
+            "react/direction-provider",
+            "react/floating-ui-react",
+            "react/use-button",
+            "react/utils",
+            "utils/inertValue",
+            "utils/owner",
+            "utils/useControlled",
+            "utils/useForcedRerendering",
+            "utils/useIsoLayoutEffect",
+            "utils/useOnMount",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/toast",
+          "path": "packages/react/src/toast/action/ToastAction.tsx",
+          "dependencies": [
+            "react/floating-ui-react",
+            "react/use-button",
+            "react/utils",
+            "utils/generateId",
+            "utils/inertValue",
+            "utils/owner",
+            "utils/store",
+            "utils/useId",
+            "utils/useIsoLayoutEffect",
+            "utils/useOnMount",
+            "utils/useRefWithInit",
+            "utils/useStableCallback",
+            "utils/useTimeout",
+            "utils/visuallyHidden"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/toggle",
+          "path": "packages/react/src/toggle/Toggle.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/toggle-group",
+            "react/use-button",
+            "react/utils",
+            "utils/error",
+            "utils/useControlled",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/toggle-group",
+          "path": "packages/react/src/toggle-group/ToggleGroup.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/toolbar",
+            "react/utils",
+            "utils/useControlled",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/toolbar",
+          "path": "packages/react/src/toolbar/button/ToolbarButton.tsx",
+          "dependencies": [
+            "react/composite",
+            "react/separator",
+            "react/use-button",
+            "react/utils"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/tooltip",
+          "path": "packages/react/src/tooltip/arrow/TooltipArrow.tsx",
+          "dependencies": [
+            "react/floating-ui-react",
+            "react/utils",
+            "utils/fastHooks",
+            "utils/store",
+            "utils/useIsoLayoutEffect",
+            "utils/useOnFirstRender",
+            "utils/useRefWithInit"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/types",
+          "path": "packages/react/src/types/index.ts",
+          "dependencies": [
+            "react/utils"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/use-button",
+          "path": "packages/react/src/use-button/index.ts",
+          "dependencies": [
+            "react/composite",
+            "react/merge-props",
+            "react/utils",
+            "utils/error",
+            "utils/safeReact",
+            "utils/useIsoLayoutEffect",
+            "utils/useStableCallback"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/use-render",
+          "path": "packages/react/src/use-render/index.ts",
+          "dependencies": [
+            "react/utils"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        },
+        {
+          "name": "react/utils",
+          "path": "packages/react/src/utils/FloatingPortalLite.tsx",
+          "dependencies": [
+            "react/collapsible",
+            "react/direction-provider",
+            "react/floating-ui-react",
+            "react/merge-props",
+            "react/types",
+            "utils/detectBrowser",
+            "utils/empty",
+            "utils/getReactElementRef",
+            "utils/inertValue",
+            "utils/mergeObjects",
+            "utils/owner",
+            "utils/store",
+            "utils/useAnimationFrame",
+            "utils/useEnhancedClickHandler",
+            "utils/useId",
+            "utils/useIsoLayoutEffect",
+            "utils/useMergedRefs",
+            "utils/usePreviousValue",
+            "utils/useStableCallback",
+            "utils/useValueAsRef",
+            "utils/visuallyHidden",
+            "utils/warn"
+          ],
+          "status": "not_started",
+          "ready": false,
+          "in_cycle": true
+        }
+      ]
+    }
+  ]
+}

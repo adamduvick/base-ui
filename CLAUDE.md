@@ -112,3 +112,9 @@ Each part has a `ComponentNameDataAttributes` file defining `data-*` attributes 
 ## Code Guidelines
 
 @AGENTS.md
+
+## Leptos Port
+
+This repo is being ported to Leptos (Rust/WASM). See `PORTING_RULES.md` for the workflow, porting rules, and validation requirements. Use `python analyze_deps.py --ready` to see what units are available to port next.
+
+@PORTING_RULES.md
