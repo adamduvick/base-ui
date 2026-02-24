@@ -1,6 +1,7 @@
-//! Utility modules ported from `@base-ui/utils`.
+//! Utility modules ported from `@base-ui/utils` and `packages/react/src/utils/`.
 //! Each submodule corresponds to a unit in `analyze_deps.py`.
 
+// --- From @base-ui/utils (packages/utils/) ---
 pub mod animation_frame;
 pub mod detect_browser;
 pub mod empty;
@@ -21,6 +22,14 @@ pub mod use_on_mount;
 pub mod use_previous_value;
 pub mod visually_hidden;
 pub mod warn;
+
+// --- From react/utils (packages/react/src/utils/) ---
+pub mod clamp;
+pub mod format_number;
+pub mod merge_class_names;
+pub mod orientation;
+pub mod props;
+pub mod value_to_percent;
 
 // Documentation-only module listing skipped React-specific utils.
 mod skipped;

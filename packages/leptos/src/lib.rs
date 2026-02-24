@@ -1,4 +1,11 @@
+pub mod avatar;
 pub mod csp_provider;
 pub mod direction_provider;
+pub mod fieldset;
+pub mod floating_ui;
+pub mod labelable_provider;
+pub mod meter;
+pub mod progress;
+pub mod separator;
 pub mod use_media_query;
 pub mod utils;

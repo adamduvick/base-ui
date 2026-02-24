@@ -97,6 +97,7 @@ name = "base-ui-leptos"
 version = "0.1.0"
 dependencies = [
  "leptos",
+ "reactive_stores",
  "wasm-bindgen",
  "wasm-bindgen-test",
  "web-sys",
